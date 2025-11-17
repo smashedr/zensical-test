@@ -26,11 +26,12 @@ jobs:
 
     environment:
       name: docs
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.zensical.outputs.page_url }}
 
     steps:
       - name: "Checkout"
         uses: actions/checkout@v5
 
       - name: "Zensical Action"
+        id: zensical
         uses: smashedr/composite-action@zensical
