@@ -20,7 +20,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: "Zensical Action"
-        uses: smashedr/composite-action@zensical
+        uses: cssnr/zensical-action@master
+        #uses: smashedr/composite-action@zensical
         with:
           upload: "artifact"
 

@@ -30,4 +30,5 @@ jobs:
     steps:
       - name: "Zensical Action"
         id: zensical
-        uses: smashedr/composite-action@zensical
+        uses: cssnr/zensical-action@master
+        #uses: smashedr/composite-action@zensical
