@@ -4,11 +4,10 @@ on:
   workflow_dispatch:
   push:
     branches-ignore: [master]
-    #paths:
-    #  - ".github/workflows/build-docs.yaml"
-    #  - ".github/workflows/dev.yaml"
-    #  - "zensical.toml"
-    #  - "docs/**"
+    paths:
+      - ".github/workflows/dev.yaml"
+      - "zensical.toml"
+      - "docs/**"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
