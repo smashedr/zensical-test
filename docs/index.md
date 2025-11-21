@@ -1,19 +1,33 @@
 ---
-icon: lucide/rocket
+template: 'my_template.html'
+title: Home
 ---
 
-[![Image title](assets/images/logo.png){ align=right }](https://github.com/smashedr/zensical-test?tab=readme-ov-file#readme)
+<div class="grid cards" markdown>
 
-# Zensical Test
+-   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
 
-Zensical Test Site
+    ---
 
-- https://github.com/smashedr/zensical-test
+    Install [`zensical`](#) with [`pip`](#) and get up
+    and running in minutes
 
-!!! danger
+    [:lucide-rocket: Getting started](get-started.md)
 
-    This is an example site only. For more details see:
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
 
-    - https://cssnr.com/
-    - https://actions.cssnr.com/
-    - https://actions-tools.cssnr.com/
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](support.md)
+
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](support.md)
+
+</div>

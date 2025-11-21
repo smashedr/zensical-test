@@ -30,5 +30,4 @@ jobs:
     steps:
       - name: "Zensical Action"
         id: zensical
-        uses: cssnr/zensical-action@master
-        #uses: smashedr/composite-action@zensical
+        uses: cssnr/zensical-action@venv # TODO: Testing @venv

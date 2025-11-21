@@ -19,7 +19,8 @@ Built with <a href="https://github.com/zensical/zensical" target="_blank">Zensic
 
 # https://zensical.org/docs/setup/navigation/
 nav = [
-    {"Get Started" = "index.md"},
+    {"Home" = "index.md"},
+    {"Get Started" = "get-started.md"},
     {"Support" = "support.md"},
 ]
 
