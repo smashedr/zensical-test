@@ -33,6 +33,7 @@ jobs:
       name: "dev"
       url: "https://dev-static.cssnr.com/"
       robots: true
+      path: "zensical-test"
     secrets:
       host: ${{ secrets.DEV_DEPLOY_HOST }}
       port: ${{ secrets.DEV_DEPLOY_PORT }}
