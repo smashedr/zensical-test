@@ -20,7 +20,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: "Zensical Action"
-        uses: cssnr/zensical-action@master
+        uses: cssnr/zensical-action@tool
         with:
           upload: "artifact"
 
