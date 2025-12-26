@@ -20,7 +20,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: "Zensical Action"
-        uses: cssnr/zensical-action@venv # TODO: Testing @venv - 1
+        uses: cssnr/zensical-action@master
         with:
           upload: "artifact"
 
